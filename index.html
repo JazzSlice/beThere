@@ -3,13 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
     <title>B0</title>
 </head>
 <body>
     <div class="header">
         <p class="logo">B0</p>
-        <div class='button'>Where would you like to travel</div>
+        <div class='button'>Search transfers</div>
     </div>
 
 
@@ -24,22 +26,25 @@
 
         <label for="date"> Date:</label>
 
-        <input type="datetime-local" id="date_start" name="date_start">
+        <input type="date" id="date_start" name="date_start">
 
         <label for="to"> Transfers available:</label>
 
         <input type="checkbox" id="transfer" name="transfer" size="10">
-
-        <input type="submit" value="Search">
     </div>
 
     <div class="list_ans">
-        
+        <p class="fr1"></p>
+        <p class="to1"></p>
+        <p class="tranp1"></p>
+        <p class="time1"></p>
+        <p class="time2"></p>
+        <p class="cst1"></p>
 
     </div>
     <p class="footer">© 2022 No copyrights</p>
 
-    <script src="/b0_scr.js"></script>
+    <script src="scr.js"></script>
     <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
 </body>
 </html>
